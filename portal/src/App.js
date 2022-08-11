@@ -14,8 +14,8 @@ function App() {
         position:'absolute',
         width: '100px',
         height: '100px',
-        top: coordinates.y,
-        left: coordinates.x,
+        top: coordinates.y - 50,
+        left: coordinates.x - 50,
         backgroundColor: 'black'
         }}
         onMouseDown={(e) => setCoordinates({x:e.pageX, y:e.pageY})}
