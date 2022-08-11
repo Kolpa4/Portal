@@ -8,13 +8,19 @@ function MainWindow() {
       <button style ={{
         display:'flex',
         position:'absolute',
-        width: '100px',
+        left: '50%', 
+        top: '50%',
+        width: '200px',
         height: '100px',
         // top: coordinates.y,
         // left: coordinates.x,
-        backgroundColor: 'blue'
+        backgroundColor: 'white',
+        // font:20,
+        transform: 'translate(-50%, -50%)',
+        fontSize:34,
+        textAlign:'center'
         }}
-        // onClick
+        // onClick = {()}
         >ПОРТАЛ</button>
       <div/>
     </div>
