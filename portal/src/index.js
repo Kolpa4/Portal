@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './components/App';
-import MainWindow from './components/MainWindow';
+import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -9,8 +8,8 @@ root.render(
 //   Приложение работает!
 //   <button>кнопка</button>
 // </div>, */}
-   // <App />,
-   <MainWindow />
+   <App />,
+
    
 
 );
