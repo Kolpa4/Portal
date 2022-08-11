@@ -18,7 +18,9 @@ function MainWindow() {
         // font:20,
         transform: 'translate(-50%, -50%)',
         fontSize:34,
-        textAlign:'center'
+        textAlign:'center',
+        justifyContent: 'center'
+        
         }}
         // onClick = {()}
         >ПОРТАЛ</button>
