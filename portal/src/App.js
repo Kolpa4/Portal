@@ -1,19 +1,21 @@
 import React from 'react'
-import MainWindow from './components/MainWindow';
-import RNDgenerator from './components/RNDgenerator';
-import Square from './components/Square';
-
+import {BrowserRouter,Route} from "react-router-dom"
+import MainWindow from './pages/MainWindow';
+import Authorisation from './pages/Authorisation';
 
 function App() {
 
 
   return (
     <div className="App">
-      <Square />
-      <Square />
-      <Square />
-      <MainWindow />
-      <RNDgenerator />
+      <BrowserRouter>
+        <Route path='/MainWindow'>
+          <MainWindow/>
+        </Route>
+        <Route path='/Authorisation'>
+          <Authorisation/>
+        </Route>
+      </BrowserRouter>
     </div>
   );
 }

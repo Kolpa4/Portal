@@ -1,7 +1,7 @@
 import React from 'react'
-// import {useState}from 'react'
 
-function MainWindow() {
+
+function ButtonPortal() {
 
   return (
     <div className="App">
@@ -12,10 +12,7 @@ function MainWindow() {
         top: '50%',
         width: '200px',
         height: '100px',
-        // top: coordinates.y,
-        // left: coordinates.x,
         backgroundColor: 'white',
-        // font:20,
         transform: 'translate(-50%, -50%)',
         fontSize:34,
         textAlign:'center',
@@ -29,4 +26,4 @@ function MainWindow() {
   );
 }
 
-export default MainWindow;
+export default ButtonPortal;
